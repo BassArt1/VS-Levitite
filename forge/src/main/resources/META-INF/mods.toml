@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "vs_levitite"
+version = "${version}"
+displayName = "VS Levitite"
+authors = "BassArt1"
+description = '''
+Adds Levitite to Valkyrian Skies!
+Levitite can be used to make ships that well... levitate!
+'''
+logoFile = "icon.png"
+
+[[dependencies.vs_levitite]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vs_levitite]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.vs_levitite]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.vs_levitite]]
+modId = "valkyrienskies"
+mandatory = true
+versionRange = "[2.4.0,)"
+ordering = "AFTER"
+side = "BOTH"
