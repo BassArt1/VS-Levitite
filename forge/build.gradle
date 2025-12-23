@@ -16,6 +16,12 @@ plugins {
     id "com.modrinth.minotaur"
 }
 
+
+
+tasks.named("sourcesJar") {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 architectury {
     platformSetupLoomIde()
     forge()
@@ -81,14 +87,16 @@ processResources {
 }
 
 loom {
-    accessWidenerPath = project(":common").loom.accessWidenerPath
+    // Reuse the common access widener
+    accessWidenerPath = file("src/main/resources/vs_levitite.accesswidener")
 
     forge {
+        convertAccessWideners = true
+
         mixinConfig "vs_levitite-common.mixins.json"
         mixinConfig "vs_levitite.mixins.json"
-        convertAccessWideners.set(true)
-        extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
     }
+
     mixin {
         defaultRefmapName = "vs_levitite-refmap.json"
     }

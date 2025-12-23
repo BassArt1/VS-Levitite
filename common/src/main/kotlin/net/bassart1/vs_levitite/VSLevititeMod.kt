@@ -1,5 +1,8 @@
 package net.bassart1.vs_levitite
 
+import net.bassart1.vs_levitite.register.ModCreativeTab
+import net.bassart1.vs_levitite.register.ModItems
+
 /**
  * The common static object that represents the mod. Referenced by both fabric and forge for initialization.
  */
@@ -9,5 +12,9 @@ object VSLevititeMod {
     @JvmStatic
     fun init() {
         // Write common init code here.
+
+        //Register
+        ModItems()
+        ModCreativeTab()
     }
 }

@@ -1,5 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
+accessWidener="vs_levitite.accesswidener"
 #issueTrackerURL = ""
 license = "MIT"
 
