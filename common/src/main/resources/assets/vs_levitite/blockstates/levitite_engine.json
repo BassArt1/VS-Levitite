@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "facing=east,level=0": {
+      "model": "vs_levitite:block/engine/levitite_engine",
+      "y": 90
+    },
+    "facing=east,level=1": {
+      "model": "vs_levitite:block/engine/levitite_engine1",
+      "y": 90
+    },
+    "facing=east,level=2": {
+      "model": "vs_levitite:block/engine/levitite_engine2",
+      "y": 90
+    },
+    "facing=east,level=3": {
+      "model": "vs_levitite:block/engine/levitite_engine3",
+      "y": 90
+    },
+    "facing=east,level=4": {
+      "model": "vs_levitite:block/engine/levitite_engine4",
+      "y": 90
+    },
+    "facing=north,level=0": {
+      "model": "vs_levitite:block/engine/levitite_engine"
+    },
+    "facing=north,level=1": {
+      "model": "vs_levitite:block/engine/levitite_engine1"
+    },
+    "facing=north,level=2": {
+      "model": "vs_levitite:block/engine/levitite_engine2"
+    },
+    "facing=north,level=3": {
+      "model": "vs_levitite:block/engine/levitite_engine3"
+    },
+    "facing=north,level=4": {
+      "model": "vs_levitite:block/engine/levitite_engine4"
+    },
+    "facing=south,level=0": {
+      "model": "vs_levitite:block/engine/levitite_engine",
+      "y": 180
+    },
+    "facing=south,level=1": {
+      "model": "vs_levitite:block/engine/levitite_engine1",
+      "y": 180
+    },
+    "facing=south,level=2": {
+      "model": "vs_levitite:block/engine/levitite_engine2",
+      "y": 180
+    },
+    "facing=south,level=3": {
+      "model": "vs_levitite:block/engine/levitite_engine3",
+      "y": 180
+    },
+    "facing=south,level=4": {
+      "model": "vs_levitite:block/engine/levitite_engine4",
+      "y": 180
+    },
+    "facing=west,level=0": {
+      "model": "vs_levitite:block/engine/levitite_engine",
+      "y": 270
+    },
+    "facing=west,level=1": {
+      "model": "vs_levitite:block/engine/levitite_engine1",
+      "y": 270
+    },
+    "facing=west,level=2": {
+      "model": "vs_levitite:block/engine/levitite_engine2",
+      "y": 270
+    },
+    "facing=west,level=3": {
+      "model": "vs_levitite:block/engine/levitite_engine3",
+      "y": 270
+    },
+    "facing=west,level=4": {
+      "model": "vs_levitite:block/engine/levitite_engine4",
+      "y": 270
+    }
+  }
+}

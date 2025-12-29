@@ -1,5 +1,6 @@
 package net.bassart1.vs_levitite
 
+import net.bassart1.vs_levitite.register.ModBlocks
 import net.bassart1.vs_levitite.register.ModCreativeTab
 import net.bassart1.vs_levitite.register.ModItems
 
@@ -14,7 +15,8 @@ object VSLevititeMod {
         // Write common init code here.
 
         //Register
-        ModItems()
         ModCreativeTab()
+        ModBlocks()
+        ModItems()
     }
 }
