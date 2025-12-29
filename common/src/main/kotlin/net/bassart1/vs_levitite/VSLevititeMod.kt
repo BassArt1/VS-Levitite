@@ -15,8 +15,8 @@ object VSLevititeMod {
         // Write common init code here.
 
         //Register
-        ModCreativeTab.TABS.register()
-        ModBlocks.BLOCKS.register()
-        ModItems.ITEMS.register()
+        ModCreativeTab()
+        ModBlocks()
+        ModItems()
     }
 }
