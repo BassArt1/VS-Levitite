@@ -12,8 +12,8 @@
     "down": "#bottom",
     "up": "#top",
     "north": "#front",
-    "east": "#right",
+    "east": "#left",
     "south": "#back",
-    "west": "#left"
+    "west": "#right"
   }
 }

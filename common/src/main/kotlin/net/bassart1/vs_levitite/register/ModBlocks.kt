@@ -4,6 +4,7 @@ import dev.architectury.registry.registries.DeferredRegister
 import dev.architectury.registry.registries.Registrar
 import dev.architectury.registry.registries.RegistrySupplier
 import net.bassart1.vs_levitite.VSLevititeMod
+import net.bassart1.vs_levitite.common.block.LevititeEngineBlock
 import net.minecraft.core.registries.Registries
 import net.minecraft.resources.ResourceLocation
 import net.minecraft.world.level.block.Block
@@ -16,6 +17,6 @@ class ModBlocks {
         var BLOCK_REGISTRAR: Registrar<Block> = BLOCKS.getRegistrar()
 
         var LEVITITE_ENGINE: RegistrySupplier<Block> = BLOCK_REGISTRAR.register(ResourceLocation(VSLevititeMod.MOD_ID, "levitite_engine"),
-            {Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE))} )
+            { LevititeEngineBlock(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE))} )
     }
 }
