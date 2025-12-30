@@ -1,5 +1,6 @@
 package net.bassart1.vs_levitite
 
+import net.bassart1.vs_levitite.loot.ModLootTableModifiers
 import net.bassart1.vs_levitite.register.ModBlocks
 import net.bassart1.vs_levitite.register.ModCreativeTab
 import net.bassart1.vs_levitite.register.ModItems
@@ -18,5 +19,8 @@ object VSLevititeMod {
         ModCreativeTab.TABS.register()
         ModBlocks.BLOCKS.register()
         ModItems.ITEMS.register()
+
+        //Modify Loot Tables as they're being loaded
+        ModLootTableModifiers()
     }
 }
